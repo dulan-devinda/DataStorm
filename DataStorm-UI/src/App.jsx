@@ -23,7 +23,7 @@ function App() {
     setOutput(null);
 
     try {
-      const response = await fetch('http://localhost:5000/predict', { // change this to your actual backend URL
+      const response = await fetch('http://127.0.0.1:5000/predict', {  // change this to your actual backend URL
         method: 'POST',
         body: formData
       });
