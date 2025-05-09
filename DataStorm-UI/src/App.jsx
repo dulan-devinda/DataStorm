@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>CSV Predictor</h1>
+      <h1>Agent Policy Predictor</h1>
       <input type="file" accept=".csv" onChange={handleFileChange} />
       <button onClick={handleSubmit}>Submit</button>
 
